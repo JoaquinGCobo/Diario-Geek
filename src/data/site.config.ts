@@ -11,11 +11,12 @@ interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
 	site: 'https://blog-template-gray.vercel.app/', // Write here your website url
-	author: 'Your Name', // Site author
-	title: 'Astro Theme OpenBlog', // Site title.
-	description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', // Description to display in the meta tags
-	lang: 'en-GB',
-	ogLocale: 'en_GB',
-	shareMessage: 'Share this post', // Message to share a post on social media
-	paginationSize: 6 // Number of posts per page
+	author: 'Diario Geek', // Site author
+	title: 'Diario Geek', // Site title.
+	description:
+		'Diario Geek es un blog dedicado a Linux, software libre y tecnología open source. Descubre tutoriales, análisis de herramientas y reflexiones sobre el mundo digital desde una perspectiva independiente y geek.', // Description to display in the meta tags
+	lang: 'es-ES',
+	ogLocale: 'es_ES',
+	shareMessage: 'Comparte este post', // Message to share a post on social media
+	paginationSize: 4 // Number of posts per page
 }
